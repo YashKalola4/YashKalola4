@@ -1,148 +1,91 @@
-h1 {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  font-size: 175%;
+body{
+    font-family: 'Merriweather', serif;
 }
-*{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-  
-}
-.food{
-  position: relative;
-  background-color:#999999;
-  margin: 20px;
-  padding: 30px;
-  border: 3px solid #000;
+header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
 }
 
-.food p{
-  margin-top: 15px;
-  text-align: justify;
+#header-nav button {
+    margin-top: 22px;
 }
 
-.food-name{
-  position: absolute;
-  top:0;
-  right: 0px;
-  padding: 6px 50px;
-  font-size: 125%;
-  border-left: 3px solid #000;
-  border-bottom: 3px solid #000;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #999999;
 }
 
-#chicken {
-  background-color: #D59898;
-} 
-
-#beef{
-  background-color: #C14543;
-  color: white;
+.navbar-collapse {
+    border-top: 0;
 }
 
-#sushi{
-  background-color: #E5D198;
-}
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 76px;
+    padding-top: 0;
+    height: 76px;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
+.navbar-brand h1 {
    
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
+    color: #000000;
+    font-size: 1.8em;
+    font-weight: bold;
+   
 }
-@media (min-width: 768px) and (max-width: 991px){
-  .col-lg-4 {
-    width: 50%;
-    float: left;
-  }
-  .col-lg-tablet{
-   width: 100%;
-   float: left;
- }
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
 }
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
+
+#collapsable-nav {
     width: 100%;
-  }
+}
+
+#nav-list {
+    /*margin-top: 10px;*/
+    background-color: #333030;
+}
+
+#nav-list a {
+    color: #000000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#nav-list a:hover {
+    background: #999;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+.container-fluid{
+    background-color: gray;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #ffffff;
+}
+
+#main-content {
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#chicken,#beef,#sushi {
+    width: 100%;
+    padding: 20px;
+    background-color: #999999;
+    margin-bottom: 70px;
+    text-align: justify;
 }
